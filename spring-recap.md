@@ -62,6 +62,8 @@ template <typename T> T FindAverage(const std::vector<T>& vec) {
 
 ---
 
+## Interesting Patterns
+
 [Use of abstract base class](https://github.com/clean-code-craft-p-1/spring-in-cpp-Brahmaprasad/pull/1/files)
 
 [...and using off-the-shelf functionality](https://github.com/clean-code-craft-p-1/spring-in-cpp-ThribhuvanGuptaS/blob/fa7dfe7319ebe163e113d40825ae24aebcdfbaa9/stats.cpp)
