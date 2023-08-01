@@ -18,6 +18,14 @@ void check_and_alert(float maxThreshold, void (*alerter_funcptr[])(), Stats comp
 }
 ```
 
+**Discussion**:
+- The variable `result` is not used. It can be removed
+- Naming of `i` can be more specific, like `alerter_index`
+- Magic number `2` in the for loop can go by the size of the array instead (needs to be passed explicitly in C)
+- The name of the function reflects its implementation (check and alert). It doesn't convey the purpose of the function.
+
+> What kind of name would convey the purpose? What else do you have to know, to improve the name?
+
 ---
 
 Consider one file with the interface and variants. Any way to separate them?
@@ -46,6 +54,13 @@ public:
 };
 ```
 
+**Discussion**:
+
+- Placing all these classes in a single file makes it hard for multiple developers to add alerters
+- Not having any concrete implementation means the interface is left hanging (no guidance on how to implement it)
+
+> Always deliver interfaces with a stub or a mock, or a sample implementation with tests. It reduces ambiguity while trouble-shooting.
+
 ---
 
 Passes the test. But when does it fail?
@@ -59,6 +74,13 @@ template <typename T> T FindAverage(const std::vector<T>& vec) {
         return sum / static_cast<double>(vec.size());
 }
 ```
+
+**Discussion**:
+
+- The code makes good use of standard functionality. Good for both readability and prove-ability
+- When the vector is empty, `sum` is zero and the function returns NAN as expected. However, if a bunch of zeros is given in the input `vec`, it still gives NAN. 
+
+> Checking `if (vec.empty())` is closer to the requiement _return NAN if the input is empty_. Always choose the code structure that's closer to the real requirement.
 
 ---
 
