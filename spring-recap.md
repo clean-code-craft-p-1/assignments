@@ -1,5 +1,5 @@
 
-Do not create additional branches. Work directly on the accepted repository
+For these assignments: Do not create additional branches. Work directly on the accepted repository
 
 ---
 
