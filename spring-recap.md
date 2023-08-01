@@ -22,6 +22,7 @@ void check_and_alert(float maxThreshold, void (*alerter_funcptr[])(), Stats comp
 - The variable `result` is not used. It can be removed
 - Naming of `i` can be more specific, like `alerter_index`
 - Magic number `2` in the for loop can go by the size of the array instead (needs to be passed explicitly in C)
+- Prefer to use pre-increment. It is faster, especially with complex types (overloading). Pre-increment doesn't need to evaluate to the original value.
 - The name of the function reflects its implementation (check and alert). It doesn't convey the purpose of the function.
 
 > What kind of name would convey the purpose? What else do you have to know, to improve the name?
