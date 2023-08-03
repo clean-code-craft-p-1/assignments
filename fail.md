@@ -16,8 +16,8 @@ While you are strenthening the test:
 
 ## Pick a language for your assignment
 
-[C](https://classroom.github.com/a/wL7W7FS9)
+[C](https://classroom.github.com/a/3CM2-zO7)
 
-[C++](https://classroom.github.com/a/TJq3Cdi4)
+[C++](https://classroom.github.com/a/5xjdPM0C)
 
-[C#](https://classroom.github.com/a/rcQh0WXq)
+[C#](https://classroom.github.com/a/-ZbJAW-W)
