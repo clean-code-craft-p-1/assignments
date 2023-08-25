@@ -23,7 +23,7 @@ Fri - session / recap + next
 
 ## Try It
 
-[Reduce complexity]()
+[Reduce complexity](functional.md)
 
 [Pass the test](pass.md) and [recap](pass-recap.md)
 
