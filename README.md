@@ -23,7 +23,7 @@ Fri - session / recap + next
 
 ## Try It
 
-[Extend and Refactor](extend-refactor.md)
+[Extend and Refactor](extend-refactor.md) and [recap](extend-recap.md)
 
 [Reduce complexity](functional.md) and [recap](functional-recap.md)
 
