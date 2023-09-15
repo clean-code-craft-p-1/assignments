@@ -23,6 +23,8 @@ Fri - session / recap + next
 
 ## Try It
 
+Assessment: [Divide and Cover](type-wise-inference.md)
+
 [Extend and Refactor](extend-refactor.md) and [recap](extend-recap.md)
 
 [Reduce complexity](functional.md) and [recap](functional-recap.md)
