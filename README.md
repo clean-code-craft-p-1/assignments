@@ -23,6 +23,8 @@ Fri - session / recap + next
 
 ## Try It
 
+[Propose tests](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAY-7brxUNFVOWklBSFA2MERUVk5RNDdDRUNJT1dGSy4u)
+
 Assessment: [Divide and Cover](type-wise-inference.md)
 
 [Extend and Refactor](extend-refactor.md) and [recap](extend-recap.md)
